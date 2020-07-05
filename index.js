@@ -22,12 +22,14 @@ function nowServing (currentQueue){
 }
 
 function currentLine (currentQueue){
-  var stringInternal;
+  var stringInternal = "The line is currently";
 
   if (currentQueue.length === 0){
-    return "The line is currently empty.";
+    stringInternal = stringInternal + " empty.";
+    return stringInternal;
   }
   else {
+    stringInternal = stringInternal + ": ";
       for (var i=0, i<currentQueue.length, i++){
 
       }
