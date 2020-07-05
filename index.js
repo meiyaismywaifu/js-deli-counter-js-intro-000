@@ -5,7 +5,7 @@ function takeANumber(currentQueue,name){
 
   currentQueue.push(name);
   queuePosition = currentQueue.length;
-  return `Welcome, ${name}. You are number ${queuePosition} in line.`
+  return `Welcome, ${name}. You are number ${queuePosition} in line.`;
 }
 
 function nowServing (currentQueue){
@@ -14,13 +14,22 @@ function nowServing (currentQueue){
   if (currentQueue.length != 0){
     nameInternal = currentQueue[0];
     currentQueue.shift();
-    return `Currently serving ${nameInternal}.`
+    return `Currently serving ${nameInternal}.`;
   }
   else if (currentQueue.length === 0){
-    return "There is nobody waiting to be served!"
+    return "There is nobody waiting to be served!";
   }
 }
 
 function currentLine (currentQueue){
-
+  var stringInternal;
+  
+  if (currentQueue.length === 0){
+    return "The line is currently empty.";
+  }
+  else {
+      for (var i=0, i<currentQueue.length, i++){
+        
+      }
+  }
 }
