@@ -1,7 +1,7 @@
 // the readmes and the test errors continue to increase in divergence...
 
 function takeANumber(currentQueue,name){
-  var queuePosition
+  var queuePosition;
 
   currentQueue.push(name);
   queuePosition = currentQueue.length + 1;
