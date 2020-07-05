@@ -3,7 +3,7 @@
 function takeANumber(currentQueue,name){
   var queuePosition
 
-
+  currentQueue.push(name);
   queuePosition = currentQueue.length + 1;
   return `Welcome, ${name}. You are number ${queuePosition} in line.`
 }
