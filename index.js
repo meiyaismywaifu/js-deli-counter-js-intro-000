@@ -14,7 +14,7 @@ function nowServing (currentQueue){
   if (currentQueue.length != 0){
     nameInternal = currentQueue[0];
     currentQueue.shift();
-    return `Current serving ${nameInternal}.`
+    return `Currently serving ${nameInternal}.`
   }
   else if (currentQueue.length === 0){
     return "There is nobody waiting to be served!"
