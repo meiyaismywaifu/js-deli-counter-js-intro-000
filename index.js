@@ -38,7 +38,7 @@ function currentLine (currentQueue){
         queuePosition = i + 1;
         stringInternal = stringInternal + queuePosition + ". " + currentQueue[i]
         if (queuePosition < currentQueue.length){
-          stringInternal = stringInternal + ", ";
+          stringInternal = stringInternal + ", "; // commas only if not at end of line
         }
       }
 
