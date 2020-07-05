@@ -6,7 +6,7 @@ At the beginning of the day, the deli is empty and is represented by an empty ar
 
 function takeANumber(currentQueue,name){
   var queuePosition
-  
+
 
   queuePosition = currentQueue.length + 1;
   return `Welcome, ${name}. You are number ${queuePosition} in line.`
