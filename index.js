@@ -41,6 +41,7 @@ function currentLine (currentQueue){
           stringInternal = stringInternal + ", ";
         }
       }
+
     return stringInternal;
   }
 }
