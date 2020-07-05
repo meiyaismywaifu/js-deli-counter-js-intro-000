@@ -23,6 +23,7 @@ function nowServing (currentQueue){
 
 function currentLine (currentQueue){
   var stringInternal = "The line is currently";
+  var queuePosition;
 
   if (currentQueue.length === 0){
     stringInternal = stringInternal + " empty.";
@@ -31,7 +32,7 @@ function currentLine (currentQueue){
   else {
     stringInternal = stringInternal + ": ";
       for (var i=0, i<currentQueue.length, i++){
-
+        stringInternal = stringInternal
       }
   }
 }
