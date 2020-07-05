@@ -32,6 +32,7 @@ function currentLine (currentQueue){
   else {
     stringInternal = stringInternal + ": ";
       for (var i=0, i<currentQueue.length, i++){
+        queuePosition = i + 1;
         stringInternal = stringInternal
       }
   }
