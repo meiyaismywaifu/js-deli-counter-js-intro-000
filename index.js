@@ -9,12 +9,15 @@ function takeANumber(currentQueue,name){
 }
 
 function nowServing (currentQueue){
+  var nameInternal;
+  
   if (currentQueue.length != 0){
+    nameInternal = currentQueue[0];
     currentQueue.shift();
-    return ""
+    return `Current serving ${nameInternal}.`
   }
   else if (currentQueue.length === 0){
-    return "There is nobody waiting to be served!""
+    return "There is nobody waiting to be served!"
   }
 }
 
