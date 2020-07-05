@@ -23,13 +23,13 @@ function nowServing (currentQueue){
 
 function currentLine (currentQueue){
   var stringInternal;
-  
+
   if (currentQueue.length === 0){
     return "The line is currently empty.";
   }
   else {
       for (var i=0, i<currentQueue.length, i++){
-        
+
       }
   }
 }
