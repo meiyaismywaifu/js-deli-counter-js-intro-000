@@ -9,7 +9,13 @@ function takeANumber(currentQueue,name){
 }
 
 function nowServing (currentQueue){
-
+  if (currentQueue.length != 0){
+    currentQueue.shift(){}
+    return ""
+  } 
+  else if (currentQueue.length === 0){
+    return "There is nobody waiting to be served!""
+  }
 }
 
 function currentLine (currentQueue){
