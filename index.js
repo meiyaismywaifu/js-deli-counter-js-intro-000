@@ -5,6 +5,7 @@ function takeANumber(currentQueue,name){
 
   currentQueue.push(name);
   queuePosition = currentQueue.length;
+
   return `Welcome, ${name}. You are number ${queuePosition} in line.`;
 }
 
@@ -14,6 +15,7 @@ function nowServing (currentQueue){
   if (currentQueue.length != 0){
     nameInternal = currentQueue[0];
     currentQueue.shift();
+
     return `Currently serving ${nameInternal}.`;
   }
   else if (currentQueue.length === 0){
@@ -27,6 +29,7 @@ function currentLine (currentQueue){
 
   if (currentQueue.length === 0){
     stringInternal = stringInternal + " empty.";
+
     return stringInternal;
   }
   else {
@@ -38,5 +41,6 @@ function currentLine (currentQueue){
           stringInternal = stringInternal + ", ";
         }
       }
+    return stringInternal;
   }
 }
