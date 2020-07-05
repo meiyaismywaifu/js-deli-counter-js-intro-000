@@ -40,6 +40,7 @@ function currentLine (currentQueue){
         if (queuePosition < currentQueue.length){
           stringInternal = stringInternal + ", "; // commas only if not at end of line
         }
+        // feels like there should be an else where a period is ended but that's not asked.
       }
 
     return stringInternal;
