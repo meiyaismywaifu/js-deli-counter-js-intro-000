@@ -10,7 +10,7 @@ function takeANumber(currentQueue,name){
 
 function nowServing (currentQueue){
   var nameInternal;
-  
+
   if (currentQueue.length != 0){
     nameInternal = currentQueue[0];
     currentQueue.shift();
